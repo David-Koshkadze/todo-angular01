@@ -1,0 +1,12 @@
+.item {
+  display: flex;
+  background-color: green;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+.done {
+  text-decoration: line-through;
+}

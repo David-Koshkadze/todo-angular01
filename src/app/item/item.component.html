@@ -1,0 +1,5 @@
+<div class="item">
+  <p [ngClass]="item.done ? 'done' : ''">{{ item.description }}</p>
+  <button (click)="onDeleteItem()">Delete</button>
+  <button (click)="markDone()">Done</button>
+</div>
